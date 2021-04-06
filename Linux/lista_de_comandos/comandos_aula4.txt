@@ -1,0 +1,28 @@
+  465  cd /
+  466  ls
+  467  cd proc
+  468  ls
+  469  cd ..
+  470  cd /
+  471  cat /proc/cpuinfo/
+  472  cat /proc/cpuinfo
+  473  clear
+  474  cat /proc/meminfo
+  475  lspci
+  476  lsusb 
+  477  arch
+  478  uname
+  479  uname -r
+  480  uname -m
+  481  clear
+  482  free
+  483  du -h ~
+  484  clear
+  485  cat /etc/passwd | more
+  486  clear
+  487  man shutdown
+  488  lscpu | more
+  489  lshw | more
+  490  sudo apt-get install lshw 
+  491  lshw | more
+  492  lshw -short

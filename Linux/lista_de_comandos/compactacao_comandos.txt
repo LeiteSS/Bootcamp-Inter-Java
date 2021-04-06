@@ -1,0 +1,62 @@
+  700  cd Documents
+  701  nano teste_compactacao.txt
+  702  ls -lh
+  703  gzip teste_compactacao.txt
+  704  ls -lh
+  705  gunzip teste_compactacao.txt.gz
+  706  ls -lh
+  707  gzip -9 teste_compactacao.txt
+  708  ls -lh
+  709  gunzip teste_compactacao.txt.gz
+  710  zip teste_compactacao.zip teste_compactacao.txt
+  711  ls -lh
+  712  zip arquivos_compactados.zip teste_compactacao.txt Exercicios
+  713  ls -lh
+  714  cd Exercicios
+  715  ls -lh
+  716  zip teste_compactacao.txt
+  717  zip arquivo_compactado.zip teste_compactacao.txt
+  718  gzip teste_compactacao.txt
+  719  ls -lh
+  720  cp teste_compactacao.txt.gz
+  721  cp teste_compactacao.txt.gz ~/Documents/Exercicios
+  722  rar
+  723  sudo apt install rar
+  724  çs
+  725  ls -lh
+  726  rar a arquivos.rar arquivo_compactado.zip teste_compactacao.txt.gz
+  727  ls -lh
+  728  tar --help
+  729  ls 
+  730  tar arquivador.tar arquivo_compactado.zip arquivos.rar teste_compactacao.txt.gz
+  731  clear
+  732  touch compactar.txt
+  733  nano compactar.txt
+  734  clear
+  735  zip compactar.txt.zip compactar.txt
+  736  ls
+  737  unzip compactar.txt.zip
+  738  ls
+  739  rar a compactar-raarr.raz descompactado.txt
+  740  ls
+  741  rar a compactar_usando_rar.rar descompactado.txt
+  742  ls
+  743  rar x compartar_usando_rar.rar
+  744  rar x compactar_usando_rar.rar
+  745  ls
+  746  zip compactar.txt
+  747  gzip compactar.txt
+  748  ls
+  749  gunzip compactar.txt.gz 
+  750  ls
+  751  bzip2 compactar.txt
+  752  ls
+  753  bzip2 -d compactar.txt.bz2 
+  754  ls
+  755  tar -cf compactado.tar compactar.txt
+  756  ls
+  757  gzip compactado.tar 
+  758  ls
+  759  tar -xvf compactado.tar.gz 
+  760  ls
+  761  exit

@@ -1,0 +1,363 @@
+--- Informações de Hardware---
+
+ssleite
+    description: Computer
+    width: 64 bits
+    capabilities: smp vsyscall32
+  *-core
+       description: Motherboard
+       physical id: 0
+     *-memory
+          description: System memory
+          physical id: 0
+          size: 8GiB
+     *-cpu
+          product: Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz
+          vendor: Intel Corp.
+          physical id: 1
+          bus info: cpu@0
+          size: 1829MHz
+          capacity: 2700MHz
+          width: 64 bits
+          capabilities: fpu fpu_exception wp vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp x86-64 constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid xsaveopt dtherm ida arat pln pts md_clear flush_l1d cpufreq
+     *-pci
+          description: Host bridge
+          product: Haswell-ULT DRAM Controller
+          vendor: Intel Corporation
+          physical id: 100
+          bus info: pci@0000:00:00.0
+          version: 0b
+          width: 32 bits
+          clock: 33MHz
+          configuration: driver=hsw_uncore
+          resources: irq:0
+        *-display
+             description: VGA compatible controller
+             product: Haswell-ULT Integrated Graphics Controller
+             vendor: Intel Corporation
+             physical id: 2
+             bus info: pci@0000:00:02.0
+             version: 0b
+             width: 64 bits
+             clock: 33MHz
+             capabilities: vga_controller bus_master cap_list rom
+             configuration: driver=i915 latency=0
+             resources: irq:47 memory:f7400000-f77fffff memory:d0000000-dfffffff ioport:f000(size=64) memory:c0000-dffff
+        *-multimedia:0
+             description: Audio device
+             product: Haswell-ULT HD Audio Controller
+             vendor: Intel Corporation
+             physical id: 3
+             bus info: pci@0000:00:03.0
+             version: 0b
+             width: 64 bits
+             clock: 33MHz
+             capabilities: bus_master cap_list
+             configuration: driver=snd_hda_intel latency=0
+             resources: irq:49 memory:f7904000-f7907fff
+        *-communication
+             description: Communication controller
+             product: 8 Series HECI #0
+             vendor: Intel Corporation
+             physical id: 16
+             bus info: pci@0000:00:16.0
+             version: 04
+             width: 64 bits
+             clock: 33MHz
+             capabilities: bus_master cap_list
+             configuration: driver=mei_me latency=0
+             resources: irq:48 memory:f790d000-f790d01f
+        *-multimedia:1
+             description: Audio device
+             product: 8 Series HD Audio Controller
+             vendor: Intel Corporation
+             physical id: 1b
+             bus info: pci@0000:00:1b.0
+             version: 04
+             width: 64 bits
+             clock: 33MHz
+             capabilities: bus_master cap_list
+             configuration: driver=snd_hda_intel latency=0
+             resources: irq:50 memory:f7900000-f7903fff
+        *-pci:0
+             description: PCI bridge
+             product: 8 Series PCI Express Root Port 1
+             vendor: Intel Corporation
+             physical id: 1c
+             bus info: pci@0000:00:1c.0
+             version: e4
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:40 ioport:2000(size=4096) memory:cf200000-cf3fffff ioport:cf400000(size=2097152)
+        *-pci:1
+             description: PCI bridge
+             product: 8 Series PCI Express Root Port 3
+             vendor: Intel Corporation
+             physical id: 1c.2
+             bus info: pci@0000:00:1c.2
+             version: e4
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:41 memory:f7800000-f78fffff
+           *-network
+                description: Wireless interface
+                product: QCA9565 / AR9565 Wireless Network Adapter
+                vendor: Qualcomm Atheros
+                physical id: 0
+                bus info: pci@0000:02:00.0
+                logical name: wlan0
+                version: 01
+                serial: 24:f5:aa:67:a8:e4
+                width: 64 bits
+                clock: 33MHz
+                capabilities: bus_master cap_list rom ethernet physical wireless
+                configuration: broadcast=yes driver=ath9k driverversion=5.9.0-2parrot1-amd64 firmware=N/A ip=192.168.1.7 latency=0 link=yes multicast=yes wireless=IEEE 802.11
+                resources: irq:18 memory:f7800000-f787ffff memory:f7880000-f788ffff
+        *-pci:2
+             description: PCI bridge
+             product: 8 Series PCI Express Root Port 4
+             vendor: Intel Corporation
+             physical id: 1c.3
+             bus info: pci@0000:00:1c.3
+             version: e4
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:42 ioport:e000(size=4096) ioport:f2100000(size=1048576)
+           *-network
+                description: Ethernet interface
+                product: RTL810xE PCI Express Fast Ethernet controller
+                vendor: Realtek Semiconductor Co., Ltd.
+                physical id: 0
+                bus info: pci@0000:03:00.0
+                logical name: eth0
+                version: 05
+                serial: 24:f5:aa:ee:3c:7b
+                capacity: 100Mbit/s
+                width: 64 bits
+                clock: 33MHz
+                capabilities: bus_master cap_list ethernet physical tp mii 10bt 10bt-fd 100bt 100bt-fd autonegotiation
+                configuration: autonegotiation=on broadcast=yes driver=r8169 driverversion=5.9.0-2parrot1-amd64 firmware=rtl_nic/rtl8105e-1.fw latency=0 link=no multicast=yes port=MII
+                resources: irq:19 ioport:e000(size=256) memory:f2104000-f2104fff memory:f2100000-f2103fff
+        *-pci:3
+             description: PCI bridge
+             product: 8 Series PCI Express Root Port 5
+             vendor: Intel Corporation
+             physical id: 1c.4
+             bus info: pci@0000:00:1c.4
+             version: e4
+             width: 32 bits
+             clock: 33MHz
+             capabilities: pci normal_decode bus_master cap_list
+             configuration: driver=pcieport
+             resources: irq:43 ioport:d000(size=4096) memory:f6000000-f70fffff ioport:e0000000(size=301989888)
+           *-display
+                description: 3D controller
+                product: GF117M [GeForce 610M/710M/810M/820M / GT 620M/625M/630M/720M]
+                vendor: NVIDIA Corporation
+                physical id: 0
+                bus info: pci@0000:04:00.0
+                version: a1
+                width: 64 bits
+                clock: 33MHz
+                capabilities: bus_master cap_list rom
+                configuration: driver=nouveau latency=0
+                resources: irq:46 memory:f6000000-f6ffffff memory:e0000000-efffffff memory:f0000000-f1ffffff ioport:d000(size=128) memory:f7000000-f707ffff
+        *-usb
+             description: USB controller
+             product: 8 Series USB EHCI #1
+             vendor: Intel Corporation
+             physical id: 1d
+             bus info: pci@0000:00:1d.0
+             version: 04
+             width: 32 bits
+             clock: 33MHz
+             capabilities: ehci bus_master cap_list
+             configuration: driver=ehci-pci latency=0
+             resources: irq:23 memory:f790b000-f790b3ff
+        *-isa
+             description: ISA bridge
+             product: 8 Series LPC Controller
+             vendor: Intel Corporation
+             physical id: 1f
+             bus info: pci@0000:00:1f.0
+             version: 04
+             width: 32 bits
+             clock: 33MHz
+             capabilities: isa bus_master cap_list
+             configuration: driver=lpc_ich latency=0
+             resources: irq:0
+        *-sata
+             description: SATA controller
+             product: 8 Series SATA Controller 1 [AHCI mode]
+             vendor: Intel Corporation
+             physical id: 1f.2
+             bus info: pci@0000:00:1f.2
+             logical name: scsi1
+             version: 04
+             width: 32 bits
+             clock: 66MHz
+             capabilities: sata ahci_1.0 bus_master cap_list emulated
+             configuration: driver=ahci latency=0
+             resources: irq:45 ioport:f0b0(size=8) ioport:f0a0(size=4) ioport:f090(size=8) ioport:f080(size=4) ioport:f060(size=32) memory:f790a000-f790a7ff
+           *-cdrom
+                description: DVD-RAM writer
+                product: CDDVDW SU-208FB
+                vendor: TSSTcorp
+                physical id: 0.0.0
+                bus info: scsi@1:0.0.0
+                logical name: /dev/cdrom
+                logical name: /dev/cdrw
+                logical name: /dev/dvd
+                logical name: /dev/dvdrw
+                logical name: /dev/sr0
+                version: SC00
+                capabilities: removable audio cd-r cd-rw dvd dvd-r dvd-ram
+                configuration: ansiversion=5 status=nodisc
+        *-serial
+             description: SMBus
+             product: 8 Series SMBus Controller
+             vendor: Intel Corporation
+             physical id: 1f.3
+             bus info: pci@0000:00:1f.3
+             version: 04
+             width: 64 bits
+             clock: 33MHz
+             configuration: driver=i801_smbus latency=0
+             resources: irq:18 memory:f7909000-f79090ff ioport:f040(size=32)
+     *-pnp00:00
+          product: PnP device PNP0c01
+          physical id: 2
+          capabilities: pnp
+          configuration: driver=system
+     *-pnp00:01
+          product: PnP device PNP0c02
+          physical id: 3
+          capabilities: pnp
+          configuration: driver=system
+     *-pnp00:02
+          product: PnP device PNP0b00
+          physical id: 4
+          capabilities: pnp
+          configuration: driver=rtc_cmos
+     *-pnp00:03
+          product: PnP device INT3f0d
+          physical id: 5
+          capabilities: pnp
+          configuration: driver=system
+     *-pnp00:04
+          product: PnP device PNP0c02
+          physical id: 6
+          capabilities: pnp
+          configuration: driver=system
+     *-pnp00:05
+          product: PnP device MSF0001
+          physical id: 7
+          capabilities: pnp
+          configuration: driver=i8042 kbd
+     *-pnp00:06
+          product: PnP device SYN2601
+          physical id: 8
+          capabilities: pnp
+          configuration: driver=i8042 aux
+     *-pnp00:07
+          product: PnP device PNP0c02
+          physical id: 9
+          capabilities: pnp
+          configuration: driver=system
+     *-pnp00:08
+          product: PnP device PNP0c02
+          physical id: a
+          capabilities: pnp
+          configuration: driver=system
+     *-pnp00:09
+          product: PnP device PNP0c02
+          physical id: b
+          capabilities: pnp
+          configuration: driver=system
+
+--- Informações de Memória---
+
+              total        used        free      shared  buff/cache   available
+Mem:        8069404     2375144      275200      570676     5419060     4818816
+Swap:             0           0           0
+
+--- Informações de Placas PCI---
+
+00:00.0 Host bridge: Intel Corporation Haswell-ULT DRAM Controller (rev 0b)
+00:02.0 VGA compatible controller: Intel Corporation Haswell-ULT Integrated Graphics Controller (rev 0b)
+00:03.0 Audio device: Intel Corporation Haswell-ULT HD Audio Controller (rev 0b)
+00:16.0 Communication controller: Intel Corporation 8 Series HECI #0 (rev 04)
+00:1b.0 Audio device: Intel Corporation 8 Series HD Audio Controller (rev 04)
+00:1c.0 PCI bridge: Intel Corporation 8 Series PCI Express Root Port 1 (rev e4)
+00:1c.2 PCI bridge: Intel Corporation 8 Series PCI Express Root Port 3 (rev e4)
+00:1c.3 PCI bridge: Intel Corporation 8 Series PCI Express Root Port 4 (rev e4)
+00:1c.4 PCI bridge: Intel Corporation 8 Series PCI Express Root Port 5 (rev e4)
+00:1d.0 USB controller: Intel Corporation 8 Series USB EHCI #1 (rev 04)
+00:1f.0 ISA bridge: Intel Corporation 8 Series LPC Controller (rev 04)
+00:1f.2 SATA controller: Intel Corporation 8 Series SATA Controller 1 [AHCI mode] (rev 04)
+00:1f.3 SMBus: Intel Corporation 8 Series SMBus Controller (rev 04)
+02:00.0 Network controller: Qualcomm Atheros QCA9565 / AR9565 Wireless Network Adapter (rev 01)
+03:00.0 Ethernet controller: Realtek Semiconductor Co., Ltd. RTL810xE PCI Express Fast Ethernet controller (rev 05)
+04:00.0 3D controller: NVIDIA Corporation GF117M [GeForce 610M/710M/810M/820M / GT 620M/625M/630M/720M] (rev a1)
+
+--- Informações de Dispositivos USB---
+
+Bus 001 Device 006: ID 0c45:64e0 Microdia Webcam SC-10HDD12636P
+Bus 001 Device 007: ID 0cf3:3004 Qualcomm Atheros Communications AR3012 Bluetooth 4.0
+Bus 001 Device 004: ID 0bda:0129 Realtek Semiconductor Corp. RTS5129 Card Reader Controller
+Bus 001 Device 003: ID 093a:2510 Pixart Imaging, Inc. Optical Mouse
+Bus 001 Device 002: ID 8087:8000 Intel Corp. Integrated Rate Matching Hub
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+
+--- Informações de CPU (Processador)---
+
+Architecture:                    x86_64
+CPU op-mode(s):                  32-bit, 64-bit
+Byte Order:                      Little Endian
+Address sizes:                   39 bits physical, 48 bits virtual
+CPU(s):                          4
+On-line CPU(s) list:             0-3
+Thread(s) per core:              2
+Core(s) per socket:              2
+Socket(s):                       1
+NUMA node(s):                    1
+Vendor ID:                       GenuineIntel
+CPU family:                      6
+Model:                           69
+Model name:                      Intel(R) Core(TM) i5-4210U CPU @ 1.70GHz
+Stepping:                        1
+CPU MHz:                         2035.267
+CPU max MHz:                     2700.0000
+CPU min MHz:                     800.0000
+BogoMIPS:                        4788.96
+Virtualization:                  VT-x
+L1d cache:                       64 KiB
+L1i cache:                       64 KiB
+L2 cache:                        512 KiB
+L3 cache:                        3 MiB
+NUMA node0 CPU(s):               0-3
+Vulnerability Itlb multihit:     KVM: Mitigation: VMX disabled
+Vulnerability L1tf:              Mitigation; PTE Inversion; VMX conditional cache flushes, SMT vulnerable
+Vulnerability Mds:               Mitigation; Clear CPU buffers; SMT vulnerable
+Vulnerability Meltdown:          Mitigation; PTI
+Vulnerability Spec store bypass: Mitigation; Speculative Store Bypass disabled via prctl and seccomp
+Vulnerability Spectre v1:        Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:        Mitigation; Full generic retpoline, IBPB conditional, IBRS_FW, STIBP conditional, RSB filling
+Vulnerability Srbds:             Mitigation; Microcode
+Vulnerability Tsx async abort:   Not affected
+Flags:                           fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid xsaveopt dtherm ida arat pln pts md_clear flush_l1d
+
+--- Informações Sobre O Kernel (Nucleo Usado)---
+
+Nome do Kernel: 
+Linux
+Versão do Kernel: 
+5.9.0-2parrot1-amd64
+Arquitetura: 
+x86_64

@@ -1,0 +1,25 @@
+  499  echo -e  "--- Informações de Hardware---\n"
+  500  echo -e  "--- Informações de Hardware---\n" > minhamaquina.txt 
+  501  lshw | more 
+  502  clear
+  503  lshw >> minhamaquina.txt
+  504  cat minhamaquina.txt
+  505  echo -e  "\n--- Informações de Memória---\n" >> minhamaquina.txt 
+  506  free >> minhamaquina.txt
+  507  lspci
+  508  echo -e  "\n--- Informações de Placas PCI---\n" >> minhamaquina.txt 
+  509  lspci >> minhamaquina.txt
+  510  lsusb
+  511  echo -e  "\n--- Informações de Dispositivos USB---\n" >> minhamaquina.txt 
+  512  lsusb >> minhamaquina.txt
+  513  echo -e  "\n--- Informações de CPU (Processador)---\n" >> minhamaquina.txt 
+  514  lscpu >> minhamaquina.txt
+  515  uname
+  516  echo -e  "\n--- Informações Sobre O Kernel (Nucleo Usado)---\n" >> minhamaquina.txt 
+  517  echo "Nome do Kernel: " >> minhamaquina.txt
+  518  uname >> minhamaquina.txt
+  519  echo "Versão do Kernel: " >> minhamaquina.txt
+  520  uname -r >> minhamaquina.txt
+  521  echo "Arquitetura: " >> minhamaquina.txt
+  522  arch >> minhamaquina.txt
+  523  FIM

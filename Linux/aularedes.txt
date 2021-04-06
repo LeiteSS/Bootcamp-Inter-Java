@@ -1,0 +1,86 @@
+--- Informações de IP ---
+
+número de IP: 
+192.168.1.7 
+número de IP Loopback: 
+127.0.1.1
+
+--- Informações de DNS ---
+
+pudim.com.br.
+54.207.20.104
+
+--- Informações do Usuário ---
+
+Login     Name                 Tty      Idle  Login Time   Office     Office Phone
+silassl   Silas Santos Leite   tty7     8:45  Mar  1 07:40 (:0)
+
+--- Informações de Teste de Host No Site www.pudim.com.br ---
+
+PING pudim.com.br (54.207.20.104) 56(84) bytes of data.
+
+--- pudim.com.br ping statistics ---
+6 packets transmitted, 0 received, 100% packet loss, time 5098ms
+
+
+--- Informações do Traceroute Usando o Site www.pudim.com.br ---
+
+traceroute to www.pudim.com.br (54.207.20.104), 30 hops max, 60 byte packets
+ 1  _gateway (192.168.1.1)  11.199 ms  11.164 ms  12.070 ms
+ 2  191.241.254.252 (191.241.254.252)  16.065 ms  16.051 ms  16.038 ms
+ 3  191.241.254.97 (191.241.254.97)  15.999 ms  15.961 ms *
+ 4  * * *
+ 5  * * *
+ 6  * 191.241.254.42 (191.241.254.42)  7.117 ms  7.088 ms
+ 7  * 187-8-122-157.customer.tdatabrasil.net.br (187.8.122.157)  6.429 ms  6.342 ms
+ 8  * 152-255-162-57.user.vivozap.com.br (152.255.162.57)  19.126 ms *
+ 9  152-255-162-57.user.vivozap.com.br (152.255.162.57)  19.085 ms  19.064 ms *
+10  * * *
+11  * * *
+12  * * *
+13  177.72.240.119 (177.72.240.119)  16.683 ms * 54.240.244.64 (54.240.244.64)  18.785 ms
+14  * * 177.72.240.119 (177.72.240.119)  18.720 ms
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
+
+--- Informações Sobre a Interface de Redes e Endereços de IP ---
+
+eth0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether 24:f5:aa:ee:3c:7b  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 10072  bytes 3534930 (3.3 MiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 10072  bytes 3534930 (3.3 MiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+wlan0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.1.7  netmask 255.255.255.0  broadcast 192.168.1.255
+        inet6 fe80::3d4b:e4d9:3dbc:c6b7  prefixlen 64  scopeid 0x20<link>
+        ether 24:f5:aa:67:a8:e4  txqueuelen 1000  (Ethernet)
+        RX packets 1274989  bytes 1766509375 (1.6 GiB)
+        RX errors 0  dropped 17  overruns 0  frame 0
+        TX packets 467567  bytes 56043369 (53.4 MiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+

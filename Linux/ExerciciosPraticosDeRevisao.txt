@@ -1,0 +1,17 @@
+Exercícios Práticos de Revisão
+
+1) Abra o Terminal (Ctrl + Alt + T)
+2) Crie uma Pasta de nome Ubuntu dentro da Pasta Documentos (cd Documents; mkdir Debian; Ubuntu é o caralhhooh)
+3) Mova esta Pasta para o diretório Pessoal (mv Debian ~)
+4) Crie um arquivo vazio de nome teste.txt dentro da Pasta Ubuntu (cd Debian; touch teste.txt)
+5) Renomeie este Arquivo como linux.txt (mv teste.txt linux.txt)
+6) Crie uma cópia deste arquivo na Pasta Downloads (cp linux.txt ~/Downloads/)
+7) Exiba todos os comandos digitados no Terminal (history)
+8) Execute a ajuda do comando ls (ls --help)
+9) Execute o manual do comando mv (man mv)
+10) Pare a execução do manual (Ctrl + Z)
+11) Saia do Terminal utilizando sequência de teclas (Ctrl + Shift + Q, porém neste exercicio era para ter usado o Ctrl + D) 
+12) Exclua a pasta Ubuntu (cd ~; rmdir Debian)
+13) Exclua o arquivo linux.txt (cd ~/Downloads; rm linux.txt)
+14) Limpe o terminal (clear)
+15) Utilize o comando para sair do terminal (exit)

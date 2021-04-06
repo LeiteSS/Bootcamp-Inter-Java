@@ -1,0 +1,30 @@
+  672  fortune | cowsay
+  673  lastlog
+  674  clear
+  675  last
+  676  logname
+  677  id
+  678  cat /etc/passwd
+  679  clear
+  680  cat /etc/group
+  681  groups
+  682  ls -lh
+  683  clear
+  684  sudo adduser teste
+  685  sudo addgroup grupoteste
+  686  sudo adduser teste grupoteste
+  687  su teste
+  688  cat /etc/passwd
+  689  cat /etc/group
+  690  sudo userdel -r teste
+  691  sudo groupdel grupoteste
+  692  cat /etc/passwd
+  693  cat /etc/group | grep grupoteste
+  694  sudo su
+  695  touch teste.txt
+  696  nano teste.txt; escrever Treinamento Sistema Linux
+  697  chmod 111 teste.txt
+  698  su silassl
+  699  cat teste.txt; cat: teste.txt: Permission denied
+  700  sudo su 
+  701  rm -r teste.txt

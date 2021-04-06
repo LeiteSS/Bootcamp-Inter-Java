@@ -1,0 +1,49 @@
+  546  ip a
+  547  sudo /sbin/ifconfig
+  548  hostname
+  549  hostname -I
+  550  hostmane -i
+  551  hostname -i
+  552  who 
+  553  whoami
+  554  clear
+  555  dig www.google.com
+  556  traceroute 
+  557  traceroute www.google.com
+  558  dig www.google.com +short
+  559  traceroute 192.168.1.5
+  560  dig 192.168.1.5
+  561  finger
+  562  sudo apt install finger
+  563  finger
+  564  finger 192.168.1.5
+  565  w
+  566  cd Documents/Exercicios/
+  568  hostname -I
+  569  echo -e "--- Informações de IP ---\n" >>aularedes.txt
+  570  echo "número de IP: " >> aularedes.txt
+  571  hostname -I >> aularedes.txt
+  572  hostnmae -i
+  573  hostname -i
+  574  echo "número de IP Loopback: " >> aularedes.txt
+  575  cat aularedes.txt
+  576  hostname -i >> aularedes.txt
+  577  echo -e "\n--- Informações de DNS ---\n" >> aularedes.txt
+  578  dig www.pudim.com.br
+  579  dig www.pudim.com.br +short
+  580  dig www.pudim.com.br +short >> aularedes.txt
+  581  who
+  582  finger
+  583  w
+  584  echo -e "\n--- Informações do Usuário ---\n" >> aularedes.txt
+  585  finger >> aularedes.txt
+  586  ping www.pudim.com.br -w 6
+  587  echo -e "\n--- Informações de Teste de Host No Site www.pudim.com.br ---\n" >> aularedes.txt
+  588  ping www.pudim.com.br -w 6 >> aularedes.txt
+  589  traceroute www.pudim.com.br
+  590  echo -e "\n--- Informações do Traceroute Usando o Site www.pudim.com.br ---\n" >> aularedes.txt
+  591  traceroute www.pudim.com.br >> aularedes.txt
+  592  sudo /sbin/ifconfig
+  593  echo -e "\n--- Informações Sobre a Interface de Redes e Endereços de IP ---\n" >> aularedes.txt
+  594  sudo /sbin/ifconfig >> aularedes.txt
+  595  history >> comandos_de_redes.txt

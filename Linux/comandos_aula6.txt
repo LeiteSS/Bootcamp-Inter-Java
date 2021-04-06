@@ -1,0 +1,70 @@
+  597  history -c    
+  598  history 
+  599  alias
+  600  alias hh='history'
+  601  hh
+  602  alias trc='traceroute'
+  603  trc www.google.com
+  604  clear
+  605  alias cls='clear'
+  606  cls
+  607  cd ~/Documents/Exercicios
+  608  ls
+  609  clear
+  610  ls
+  611  cd Exercicios Praticos/
+  612  cd 'Exercicios Praticos'
+  613  ls
+  614  wc -l arquivo.txt
+  615  wc -l aularedes.txt
+  616  wc -c aularedes.txt
+  617  wc -m aularedes.txt
+  618  cls
+  619  ls -a
+  620  cd ..
+  621  c ..
+  622  cd ..
+  623  cls
+  624  ls -a
+  625  cd /
+  626  ls -a
+  627  cd ~/Documents/Exercicios
+  628  cd 'Exercicios Praticos'
+  629  rm -r vazio.txt
+  630  touch vazio.txt
+  631  cat vazio.txt
+  632  cmp aularedes.txt vazio.txt
+  633  cls
+  634  nano vazio.txt
+  635  cat vazio.txt
+  636  sort -n vazio.txt
+  637  cls
+  638  last reboot
+  639  route -n
+  640  sudo apt install route
+  641  cls
+  642  route
+  643  sudo /sbin/route
+  644  sudo /sbin/route -n
+  645  time
+  646  time traceroute www.google.com
+  647  uptime
+  648  cowsay
+  649  sudo apt install cowsay
+  650  cowsay "Olá Mundo"
+  651  cowsay -d "Linux"
+  652  cowsay -g "Linux"
+  653  cowsay -f tux "Linux"
+  654  cowsay -f vader "Linux"
+  655  cowsay -f vader-koala "Linux"
+  656  cowsay -f dragon "Linux"
+  657  sudo apt install xcowsay
+  658  xcowsay "Ola Mundo"
+  659  sudo apt install cmatrix
+  660  cmatrix
+  661  cd ~/Documents/Exercicios/'Exercicios Praticos'
+  662  seq 1 10 > vazio.txt
+  663  cat vazio.txt
+  664  cls
+  665  clear
+  666  nl vazio.txt

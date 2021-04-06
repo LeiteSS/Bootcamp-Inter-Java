@@ -1,0 +1,28 @@
+org/aulaDIO/lista/PrimeiroExemplo.java
+ org.aulaDIO.lista.PrimeiroExemplo
+org/aulaDIO/exercicios/ExercicioI.java
+ org.aulaDIO.exercicios.ExercicioI
+org/aulaDIO/optionals/SegundoExemplo.java
+ org.aulaDIO.optionals.SegundoExemplo
+org/aulaDIO/optionals/PrimeiroExemplo.java
+ org.aulaDIO.optionals.PrimeiroExemplo
+org/aulaDIO/map/PrimeiroExemplo.java
+ org.aulaDIO.map.PrimeiroExemplo
+org/aulaDIO/optionals/TerceiroExemplo.java
+ org.aulaDIO.optionals.TerceiroExemplo
+org/aulaDIO/map/TerceiroExemplo.java
+ org.aulaDIO.map.TerceiroExemplo
+org/aulaDIO/streamAPI/PrimeiroExemplo.java
+ org.aulaDIO.streamAPI.PrimeiroExemplo
+org/aulaDIO/queue/PrimeiroExemplo.java
+ org.aulaDIO.queue.PrimeiroExemplo
+org/aulaDIO/set/PrimeiroExemplo.java
+ org.aulaDIO.set.PrimeiroExemplo
+org/aulaDIO/set/TerceiroExemplo.java
+ org.aulaDIO.set.TerceiroExemplo
+org/aulaDIO/map/SegundoExemplo.java
+ org.aulaDIO.map.SegundoExemplo
+org/aulaDIO/lista/SegundoExemplo.java
+ org.aulaDIO.lista.SegundoExemplo
+org/aulaDIO/set/SegundoExemplo.java
+ org.aulaDIO.set.SegundoExemplo
